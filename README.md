@@ -21,7 +21,7 @@ The model with the lowest test Mean Squared Error (MSE) will be selected to fore
 
 通过验证集选择最优超参数后，比较三类模型在测试集上的 MSE，最终使用最佳模型对 **2024年10月、11月和12月的气温** 进行预测。
 
-## 📊 Dataset / 数据集信息
+## Dataset / 数据集信息
 
 - Source: [ERA5 Surface Air Temperature Dataset](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)
 - Records: 1,017 monthly observations
@@ -31,7 +31,7 @@ The model with the lowest test Mean Squared Error (MSE) will be selected to fore
   - `month`: Month of observation / 观测月份
   - `temp`: Monthly average surface temperature (°C) / 平均表面气温（摄氏度）
 
-## 🧠 Methodology / 方法概述
+## Methodology / 方法概述
 
 The LBF model is defined as:
 
